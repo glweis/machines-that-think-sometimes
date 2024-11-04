@@ -2,7 +2,7 @@
 
 writing and stuff
 
-'''python
+```python
 for i in range(10)
   print("ur mom")
-'''
+```
