@@ -1,8 +1,21 @@
-# machines-that-think-sometimes
+# Title yay
 
-writing and stuff
+blah blah blah
+
 
 ```python
-for i in range(10)
-  print("ur mom")
+for i in range(10):
+    print("ur mom")
 ```
+
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    ur mom
+    
