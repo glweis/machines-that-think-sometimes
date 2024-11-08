@@ -3,25 +3,25 @@
   <h1>Initial Explorations and Visualizations</h1>
    <p>These are some starter visuals and summary statistics</p>
     <pre>
-     <code>
-      # load in data
-      library(readr)
-      stars <- read_csv("CC Final Project/6 class csv.csv")
-      View(stars)
-      
-      # load in packages
-      library(tidyverse)
-      
-      # look at levels in star color
-      print(factor(stars$`Star color`))
-      
-      # general summary stats
-      summary(stars)
-      summary(stars$`Temperature (K)`)
-      summary(stars$`Luminosity(L/Lo)`)
-      summary(stars$`Radius(R/Ro)`)
-      summary(stars$`Absolute magnitude(Mv)`)
-    </code>
+    `<code>
+    # load in data
+    library(readr)
+    stars <- read_csv("CC Final Project/6 class csv.csv")
+    View(stars)
+    
+    # load in packages
+    library(tidyverse)
+    
+    # look at levels in star color
+    print(factor(stars$`Star color`))
+    
+    # general summary stats
+    summary(stars)
+    summary(stars$`Temperature (K)`)
+    summary(stars$`Luminosity(L/Lo)`)
+    summary(stars$`Radius(R/Ro)`)
+    summary(stars$`Absolute magnitude(Mv)`)
+   </code>
   </pre>
  </body>
 </html>
