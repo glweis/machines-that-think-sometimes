@@ -1,10 +1,3 @@
-<html lang="en">
- <body>
-  <h1>Initial Explorations and Visualizations</h1>
-   <p>These are some starter visuals and summary statistics</p>
-    <pre>
-     <code>
-
 # load in data
 library(readr)
 stars <- read_csv("CC Final Project/6 class csv.csv")
@@ -332,7 +325,3 @@ ggplot(means, aes(`Temperature(K)`, `Radius(R/Ro)`, color = Color)) +
        x = "Temperature (K)",
        y = "Radius (R/Ro)") +
   theme_minimal()
-   </code>
-  </pre>
- </body>
-</html>
