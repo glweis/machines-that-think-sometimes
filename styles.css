@@ -1,23 +1,29 @@
-/* Ensure that the body does not have text-align center */
+/* Universal selector to ensure padding and borders are inside the element's width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Body styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: left; /* Remove centering from the body */
+  text-align: left; /* Ensure no global text centering */
 }
 
-/* Header - centered as per original design */
+/* Header styling */
 header {
   background-color: #333;
   padding: 1em;
-  text-align: center;  /* Keep the header centered */
 }
 
-/* Navigation - remove any conflicts */
 nav ul {
   list-style-type: none;
   padding: 0;
-  text-align: left; /* Ensure nav items are aligned left if needed */
+  text-align: left; /* Align navigation items to the left */
+  margin: 0;  /* Remove default margin from nav */
 }
 
 nav ul li {
@@ -30,10 +36,10 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Main content section */
+/* Main content styling */
 main {
-  padding: 20px;
-  text-align: left;  /* This makes sure text inside main is left-aligned */
+  padding: 20px; /* Add padding inside the main content */
+  margin: 0 20px; /* Add left and right margins to main content */
 }
 
 /* Paragraph styling */
@@ -41,7 +47,24 @@ p {
   font-size: 16px;
   line-height: 1.6;
   color: #333;
+  margin-bottom: 20px;  /* Add space below each paragraph */
+  margin-left: 0;       /* No extra margin to left for paragraphs */
+  margin-right: 0;      /* No extra margin to right for paragraphs */
+}
+
+/* Link styling */
+a {
+  color: #0066cc; /* Set color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2em;
   margin-bottom: 20px;
-  margin-left: 20px;      /* Adds space on the left of the paragraph */
-  margin-right: 20px;     /* Adds space on the right of the paragraph */
+  color: #333;
 }
