@@ -36,6 +36,9 @@ main {
 
 /* Ensure paragraphs are styled with left alignment */
 p {
+  text-align: left;
+  margin-left: 20px;      /* Adds space on the left of the paragraph */
+  margin-right: 20px;
   font-size: 16px;
   line-height: 1.6;
   color: #333;
