@@ -39,7 +39,7 @@ nav ul li a {
 /* Main content styling */
 main {
   padding: 20px; /* Add padding inside the main content */
-  margin: 0 20px; /* Add left and right margins to main content */
+  margin: 0 100px; /* Add left and right margins to main content */
 }
 
 /* Paragraph styling */
