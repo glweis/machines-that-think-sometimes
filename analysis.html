@@ -32,7 +32,7 @@
     <img src="img/ten.png" width="600"/>
     <img src="img/eleven.png" width="600"/>
     <p>This paired matrix depicts a color coded point for each group of stars based on their star color. It uses the same dataset of means as the previous three graphs, setting the variable mean of a group of stars (based on star color) against other groups of stars. The second graph is a close up example of one of the pairs; on average, orange stars appear to have the highest luminosity and the lowest temperature compared to the other star color groups.</p>
-    <img src="img/download.png" width="600"/>
+    <img src="img/download.png" width="100%"/>
     <p>This is a plotly version of some of my visualizations. If you observe the plots, some seem to follow the Hertzsprung-Russell Diagram. There are also many bunches of stars based on spectral class.</p>
     <h3>Let's move on to model analysis.</h3>
     <p>My decision tree had an R<sup>2</sup> value of 0.99909 when predicting spectral class using the variables luminosity, absolute magnitude, radius, temperature, star type, and star color, meaning it was incredibly accurate. I used 10% of the data for training and 90% for testing. I believe this extreme accuracy is due to overfitting, but I can’t be entirely sure. My random forest had an R<sup>2</sup> value of 0.96461 when predicting spectral class using the same variables, meaning it was also incredibly accurate. I once again used 10% of the data for training and 90% for testing. After messing with the random forest model and changing the testing and training percentages quite a few times, I am slightly more confident (though not entirely certain) about the validity of its accuracy compared to the decision tree’s.</p>
